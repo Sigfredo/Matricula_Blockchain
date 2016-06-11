@@ -5,11 +5,11 @@ import "ConvertLib.sol";
 // coin/token contracts. If you want to create a standards-compliant
 // token, see: https://github.com/ConsenSys/Tokens. Cheers!
 
-contract MetaCoin {
+contract VagaContract {
 	mapping (address => uint) balances;
 
-	function MetaCoin() {
-		balances[tx.origin] = 10000;
+	function VagaContract() {
+		balances[tx.origin] = 10;
 	}
 
 	function sendCoin(address receiver, uint amount) returns(bool sufficient) {
