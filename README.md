@@ -47,3 +47,5 @@ $ truffle serve
 5.2 Abra no navegador o endereço:
 
 http://localhost:8080/
+
+5.3 Informe a quantidade de vagas e o endereço da carteira do aluno a ser matriculado. Como o sistema gera endereços aleatórios, é necessário escolher um deles no terminal que está rodando o testrpc. Busque onde está escrito "Available Accounts" Escolha um dos 10 endereços.
